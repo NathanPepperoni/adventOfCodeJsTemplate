@@ -1,6 +1,5 @@
-import star1 from "../Day1/star1.js";
-import star2 from "../Day1/star2.js";
+import star1 from "../day1/star1.js";
 
-const starray = [star1, star2];
+const starray = [star1];
 
 export default starray;
