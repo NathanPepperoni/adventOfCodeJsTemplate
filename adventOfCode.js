@@ -21,7 +21,12 @@ const execute = () => {
     const args = process.argv;
     const cliArg = args[2].toLowerCase();
     const argNumber = Number.parseInt(cliArg.replace("star", "").replace("day", "").replace("generatestar", ""));
-    if (cliArg.startsWith("generatestar")) {
+    if (cliArg === "starcount") {
+        const stars = starray.length;
+        console.log(stars > 1 ? `${stars} stars in place so far.` : `${stars} star in place so far.`);
+        return;
+    }
+    if (cliArg === "generatestar") {
         return generateStar();
     }
     if (!argNumber || Number.isNaN(argNumber)) {
