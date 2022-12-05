@@ -1,8 +1,7 @@
-# adventOfCode template
+# Advent of Code
+This repo is intended to help quickly solve advent of code problems (https://adventofcode.com). The code in this project is intended to create a quick development loop with as little effort as possible for each star/day.
 
-This repo is intended to be forked for each new year for Advent Of Code (https://adventofcode.com)
-
-# CLI option
+# CLI options
 
 You can run by star, or by day
 
