@@ -110,6 +110,7 @@ const generateStar = () => {
     fs.writeFileSync(`./day${dayForNextStar}/star${nextStar}.js`, createStarTemplate(nextStar, dayForNextStar));
     updateStarray(nextStar, dayForNextStar);
     updateVsCodeLaunch(nextStar);
+    console.log(`Generated star ${nextStar}`);
 };
 
 execute();
